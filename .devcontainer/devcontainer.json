@@ -1,0 +1,11 @@
+{  
+  "postCreateCommand": "cd backend && dotnet build && cd .. && cd frontend && npm i && cd .. && npm i",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vue.volar",
+        "ms-dotnettools.csharp"
+      ]
+    }
+  }
+}
